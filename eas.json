@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 0.53.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "API_URL": "https://node-api-bfap.herokuapp.com/"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "API_URL": "https://node-api-bfap.herokuapp.com/"
+      }
+    },
+    "production": {
+      "env": {
+        "API_URL": "https://node-api-bfap.herokuapp.com/"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
